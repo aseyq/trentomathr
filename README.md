@@ -6,11 +6,11 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | Date      |                                                          |
 |-----------|----------------------------------------------------------|
 | Nov 8     | Session I - Intro to R, Operators,Variables, Functions   |
-| Nov 15    |                                                          |
-| Nov 29    |   |
+| Nov 15    | Session II                                                          |
+| Nov 29    | Session III  |
 | ~~Monday 6~~  | There is no class (out of town)  |
-| Monday 13 |   |
-| Monday 20 |   |
+| Monday 13 | Session IV  |
+| Monday 20 | Session V  |
 
 ## Updates
 ### 09-Nov-2021
