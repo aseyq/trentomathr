@@ -1,7 +1,8 @@
 # University of Trento - Mathemathics - R Programming Module
 You will find the updates in this page
 Course Hours: Monday 5pm - 7pm  AULA 2B
-## 08/11/2021 - Course Start
+
+## Schedule
 | Date      |   |
 |-----------|---|
 | Nov 8     |   |
@@ -10,3 +11,7 @@ Course Hours: Monday 5pm - 7pm  AULA 2B
 | ~~Monday 6~~  | There is no class (out of town)  |
 | Monday 13 |   |
 | Monday 20 |   |
+
+## Updates
+### 09-Nov-2021
+I have added the solutions of the excercises. Shortly I will add the lecture notes of this week and the next week.
