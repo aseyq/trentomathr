@@ -6,7 +6,7 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | Date      |                                                          |
 |-----------|----------------------------------------------------------|
 | Nov 8     | Session I - Intro to R, Operators,Variables, Functions. [Slides🔗](https://www.saral.it/trentomathr/slides1.html#1)   |
-| Nov 15    | Session II                                                          |
+| Nov 15    | Session II - Data Types, Vectors [Slides🔗](https://www.saral.it/trentomathr/slides2.html#1)                                                         |
 | Nov 29    | Session III  |
 | ~~Monday 6~~  | There is no class (out of town)  |
 | Monday 13 | Session IV  |
