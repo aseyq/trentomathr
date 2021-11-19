@@ -12,9 +12,13 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | Monday 13 | Session IV  |
 | Monday 20 | Session V  |
 
+# Resources
+* Running R from the browser : https://rdrr.io/snippets/
+
 ## Updates
 ### 19-Nov-2021
 I've added solutions for Excercise 2.
+I've added the website to run R code in browser. 
 
 ### 09-Nov-2021
 I have added the solutions for Excercise 1. 
