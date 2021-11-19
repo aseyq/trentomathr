@@ -13,6 +13,9 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | Monday 20 | Session V  |
 
 # Resources
+* Install R (Windows): https://cran.r-project.org/bin/windows/base/
+* Install R (Mac): https://cran.r-project.org/bin/macosx/
+* Install RStudio: https://www.rstudio.com/products/rstudio/download/#download
 * Running R from the browser : https://rdrr.io/snippets/
 
 ## Updates
