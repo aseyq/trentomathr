@@ -13,5 +13,8 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | Monday 20 | Session V  |
 
 ## Updates
+### 19-Nov-2021
+I've added solutions for Excercise 2.
+
 ### 09-Nov-2021
-I have added the solutions of the excercises. Shortly I will add the lecture notes of this week and the next week.
+I have added the solutions for Excercise 1. 
