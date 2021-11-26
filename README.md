@@ -20,6 +20,9 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 * Running R from the browser : https://rdrr.io/snippets/
 
 ## Updates
+### 26-Nov-2021
+I've added solutions for Excercise 3.
+
 ### 19-Nov-2021
 I've added solutions for Excercise 2.
 I've added the website to run R code in browser. 
