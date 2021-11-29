@@ -186,7 +186,7 @@ a %*% b
 1 &amp; 2 \\
 3 &amp; 4
 \end{pmatrix}`
----
+--
 
 ```r
 A &lt;- matrix(c(1,2,3,4), nrow=2)
@@ -214,8 +214,192 @@ print(A)
 ## [1,]    1    2
 ## [2,]    3    4
 ```
+---
+## Creating Special Matrices
+* A matrix of all 1's
 
 
+```r
+matrix(1, nrow=2, ncol=3)
+```
+
+```
+##      [,1] [,2] [,3]
+## [1,]    1    1    1
+## [2,]    1    1    1
+```
+---
+## Creating Special Matrices 
+* To create an identity matrix, use `diag(n)`
+
+```r
+I &lt;- diag(2)
+I
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    0
+## [2,]    0    1
+```
+
+--
+
+```r
+A &lt;- matrix(c(1,2,3,4), nrow=2, byrow=TRUE)
+print(A)
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    2
+## [2,]    3    4
+```
+--
+
+```r
+print(A %*% I)
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    2
+## [2,]    3    4
+```
+---
+## Matrix Multiplication
+The matrix multiplication uses `%*%` syntax.
+
+
+```r
+C &lt;- matrix(c(1,0,2,1), nrow=2, ncol=2, byrow = TRUE)
+print(C)
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    0
+## [2,]    2    1
+```
+
+
+```r
+D &lt;- matrix(c(2,0,2,0), nrow=2, ncol=2, byrow = TRUE)
+print(D)
+```
+
+```
+##      [,1] [,2]
+## [1,]    2    0
+## [2,]    2    0
+```
+--
+
+
+```r
+print(C %*% D)
+```
+
+```
+##      [,1] [,2]
+## [1,]    2    0
+## [2,]    6    0
+```
+
+---
+## Matrix Multiplication
+
+- Order matters: `A %*% B` is not `B %*% A`
+
+- Componentwise multiplication is not matrix multiplication `A * B` is not `A %*% B`
+
+
+
+```r
+C &lt;- matrix(c(1,0,2,1), nrow=2, ncol=2, byrow = TRUE)
+D &lt;- matrix(c(2,0,2,0), nrow=2, ncol=2, byrow = TRUE)
+```
+--
+
+```r
+print(C %*% D)
+```
+
+```
+##      [,1] [,2]
+## [1,]    2    0
+## [2,]    6    0
+```
+--
+
+```r
+print(D %*% C)
+```
+
+```
+##      [,1] [,2]
+## [1,]    2    0
+## [2,]    2    0
+```
+
+---
+
+## Matrix Multiplication
+
+- `solve(M)` will give you the inverse of a matrix. (If it exists)
+
+
+
+```r
+C &lt;- matrix(c(1,0,2,1), nrow=2, ncol=2, byrow = TRUE)
+
+invC &lt;- solve(C)
+print(invC)
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    0
+## [2,]   -2    1
+```
+--
+* Double check if the inverse is correct 
+
+```r
+print(C %*% invC)
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    0
+## [2,]    0    1
+```
+
+---
+## Excercies
+
+1- Create a matrix as follows and call it `M`:
+
+`\begin{pmatrix}
+8 &amp; 4  &amp; 3\\
+-2 &amp; -1 &amp; 0.5 \\
+3  &amp;  1 &amp;  2
+\end{pmatrix}`
+
+
+2- Multiply it with
+  - Scalar 32
+  - Muliply with another 3 x 2 matrix you define your own 
+  
+3- Take the inverse of matrix `M`
+
+---
+
+## Excercises
+4- Create a 3x3 matrix of ones. Multiply `M` with it and see how the matrix changes.
+
+
+5- Create an 3x3 identity matrix. Multiply `M` with it with and see whether M changes.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

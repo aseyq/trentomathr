@@ -237,7 +237,7 @@ a %*% b
 1 & 2 \\
 3 & 4
 \end{pmatrix}
----
+--
 ```{r}
 A <- matrix(c(1,2,3,4), nrow=2)
 print(A)
@@ -251,5 +251,111 @@ print(A)
 A <- matrix(c(1,2,3,4), nrow=2, byrow=TRUE)
 print(A)
 ```
+---
+## Creating Special Matrices
+* A matrix of all 1's
+
+```{r}
+matrix(1, nrow=2, ncol=3)
+```
+---
+## Creating Special Matrices 
+* To create an identity matrix, use `diag(n)`
+```{r}
+I <- diag(2)
+I
+```
+
+--
+```{r}
+A <- matrix(c(1,2,3,4), nrow=2, byrow=TRUE)
+print(A)
+```
+--
+```{r}
+print(A %*% I)
+```
+---
+## Matrix Multiplication
+The matrix multiplication uses `%*%` syntax.
+
+```{r}
+C <- matrix(c(1,0,2,1), nrow=2, ncol=2, byrow = TRUE)
+print(C)
+```
+
+```{r}
+D <- matrix(c(2,0,2,0), nrow=2, ncol=2, byrow = TRUE)
+print(D)
+```
+--
+
+```{r}
+print(C %*% D)
+```
+
+---
+## Matrix Multiplication
+
+- Order matters: `A %*% B` is not `B %*% A`
+
+- Componentwise multiplication is not matrix multiplication `A * B` is not `A %*% B`
 
 
+```{r}
+C <- matrix(c(1,0,2,1), nrow=2, ncol=2, byrow = TRUE)
+D <- matrix(c(2,0,2,0), nrow=2, ncol=2, byrow = TRUE)
+```
+--
+```{r}
+print(C %*% D)
+```
+--
+```{r}
+print(D %*% C)
+```
+
+---
+
+## Matrix Multiplication
+
+- `solve(M)` will give you the inverse of a matrix. (If it exists)
+
+
+```{r}
+C <- matrix(c(1,0,2,1), nrow=2, ncol=2, byrow = TRUE)
+
+invC <- solve(C)
+print(invC)
+```
+--
+* Double check if the inverse is correct 
+```{r}
+print(C %*% invC)
+```
+
+---
+## Excercies
+
+1- Create a matrix as follows and call it `M`:
+
+\begin{pmatrix}
+8 & 4  & 3\\
+-2 & -1 & 0.5 \\
+3  &  1 &  2
+\end{pmatrix}
+
+
+2- Multiply it with
+  - Scalar 32
+  - Muliply with another 3 x 2 matrix you define your own 
+  
+3- Take the inverse of matrix `M`
+
+---
+
+## Excercises
+4- Create a 3x3 matrix of ones. Multiply `M` with it and see how the matrix changes.
+
+
+5- Create an 3x3 identity matrix. Multiply `M` with it with and see whether M changes.
