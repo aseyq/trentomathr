@@ -3,15 +3,15 @@ You will find the updates in this page
 Course Hours: Monday 5pm - 7pm  AULA 2B  
 Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 ## Schedule
-| Date      |                                                          |
-|-----------|----------------------------------------------------------|
-| November 8     | Session I - Intro to R, Operators,Variables, Functions. [Slides🔗](https://www.saral.it/trentomathr/slides1.html#1)   |
-| November 15    | Session II - Data Types, Vectors [Slides🔗](https://www.saral.it/trentomathr/slides2.html#1)                                                         |
-| November 21    | Session III
-| November 29    | Session IV  |
-| ~~December 6~~  | There is no class (out of town)  |
-| December 13 | Session V  |
-| December 20 | Session VI  |
+| Date      |                                                          | Slides |
+|-----------|----------------------------------------------------------|--|
+| November 8     | Session I - Intro to R, Operators,Variables, Functions. | [Slides🔗](https://www.saral.it/trentomathr/slides/slides1.html#1)   |
+| November 15    | Session II - Data Types, Vectors | [Slides🔗](https://www.saral.it/trentomathr/slides/slides2.html#1)                                                         |
+| November 22    | Session III - Plots in R | [Slides🔗](https://www.saral.it/trentomathr/slides/slides3.html#1) |
+| November 29    | Session IV  | |
+| ~~December 6~~  | There is no class (out of town)  | |
+| December 13 | Session V  | |
+| December 20 | Session VI  | |
 
 # Resources
 * Install R (Windows): https://cran.r-project.org/bin/windows/base/
@@ -20,6 +20,9 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 * Running R from the browser : https://rdrr.io/snippets/
 
 ## Updates
+### 26-Nov-2021
+I've added solutions for Excercise 3.
+
 ### 19-Nov-2021
 I've added solutions for Excercise 2.
 I've added the website to run R code in browser. 
