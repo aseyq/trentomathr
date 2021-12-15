@@ -10,7 +10,7 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | November 22    | Session III - Plots in R | [Slides🔗](https://www.saral.it/trentomathr/slides/slides3.html#1) |
 | November 29    | Session IV  -  Vectors and Matrices |  [Slides🔗](https://www.saral.it/trentomathr/slides/slides4.html#1) |
 | ~~December 6~~  | There is no class (out of town)  | |
-| December 13 | Session V - ONLINE SESSION [Link for Zoom Meeting🔗](https://zoom.us/j/95664649192?pwd=T0MzRGw0dnhsc2ZkMWMwQmtlVFExdz09)  | |
+| December 13 | Session V - Matrices  | [Slides🔗](https://www.saral.it/trentomathr/slides/slides5.html#1) |
 | December 20 | Session VI  | |
 
 
@@ -22,6 +22,9 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 * Running R from the browser : https://rdrr.io/snippets/
 
 ## Updates
+### 15-Dec-2021
+Added slides for lecture 5
+
 ### 26-Nov-2021
 I've added solutions for Excercise 3.
 
