@@ -1,3 +1,6 @@
+# Meeting Link
+https://zoom.us/j/94054934463?pwd=eGlqb3BrYlZuMVdhTmxNTVlxazBzdz09
+
 # University of Trento - Mathemathics - R Programming Module
 You will find the updates in this page  
 Course Hours: Monday 5pm - 7pm  AULA 2B  
