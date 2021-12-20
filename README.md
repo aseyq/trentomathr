@@ -11,7 +11,7 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 | November 29    | Session IV  -  Vectors and Matrices |  [Slides🔗](https://www.saral.it/trentomathr/slides/slides4.html#1) |
 | ~~December 6~~  | There is no class (out of town)  | |
 | December 13 | Session V - Matrices  | [Slides🔗](https://www.saral.it/trentomathr/slides/slides5.html#1) |
-| December 20 | Session VI - Recap & Excercises | Excercises [PDF🗎](https://www.saral.it/trentomathr/excercise_sheet6.pdf) Excercises [HTML🔗](https://www.saral.it/trentomathr/excercise_sheet6.html)|
+| December 20 | Session VI - Recap & Excercises | Excercises [PDF🗎](https://www.saral.it/trentomathr/excercise_sheet6.pdf) [HTML🔗](https://www.saral.it/trentomathr/excercise_sheet6.html)|
 
 
 
