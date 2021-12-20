@@ -1,6 +1,3 @@
-# Meeting Link
-https://zoom.us/j/94054934463?pwd=eGlqb3BrYlZuMVdhTmxNTVlxazBzdz09
-
 # University of Trento - Mathemathics - R Programming Module
 You will find the updates in this page  
 Course Hours: Monday 5pm - 7pm  AULA 2B  
@@ -26,17 +23,18 @@ Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 
 ## Updates
 ### 20-Dec-2021
-Added excercises for lecture 6
+- Added excercises for lecture 6
+- Added solutions for exercises 6
 
 ### 15-Dec-2021
-Added slides for lecture 5
+- Added slides for lecture 5
 
 ### 26-Nov-2021
-I've added solutions for Excercise 3.
+- I've added solutions for Excercise 3.
 
 ### 19-Nov-2021
-I've added solutions for Excercise 2.
-I've added the website to run R code in browser. 
+- I've added solutions for Excercise 2.
+- I've added the website to run R code in browser. 
 
 ### 09-Nov-2021
-I have added the solutions for Excercise 1. 
+- I have added the solutions for Excercise 1. 
