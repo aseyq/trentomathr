@@ -1,6 +1,6 @@
 # University of Trento - Mathemathics - R Programming Module
 You will find the updates in this page  
-Course Hours: Monday 5pm - 7pm  AULA 2B  
+Course Hours: Monday 5pm - 8pm  AULA 2B  
 Instructor: Ali Seyhun Saral <ali.saral@unibo.it>
 ## Schedule
 | Date      |                                                          | Slides |
